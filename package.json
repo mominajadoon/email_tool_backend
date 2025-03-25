@@ -2,11 +2,12 @@
   "name": "email-bison",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "backend/app.js",
   "scripts": {
     "start": "node backend/app.js",
     "dev": "nodemon backend/app.js",
-    "build": "npm install"
+   "build": "cd backend && npm install"
+
   },
   "author": "",
   "license": "ISC",
