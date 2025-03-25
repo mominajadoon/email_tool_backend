@@ -4,10 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-  "start": "node backend/server.js",
-  "dev": "nodemon backend/server.js",
-  "build": "cd backend && npm install"
-},
+    "start": "node backend/app.js",
+    "dev": "nodemon backend/app.js",
+    "build": "npm install"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
